@@ -4,8 +4,10 @@ body, .Main{
     background-color: #e0e0e0;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color:#000;
+    position: sticky;
 }
-
 
 
 
@@ -14,16 +16,81 @@ header,footer{
 }
 
 
-/* Header styleing*/
+
+/******************* Header ******************/
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+header .login{
+    vertical-align: middle;
+    margin-right: 2%;
+}
+
+header a{
+    text-decoration: none;
+    color:#000;
+}
 
 header img{
     width: 60px;
     height: 60px;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+.Content{
+    padding-top: 60px;
 }
 
 /* Footer styling*/
+/***this part  Footer  styling is start***************/
 
 footer a img{
     width: 20px;
     height: 22px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0%;
+    position: sticky;
+    bottom: 0;
+}
+
+.contact-us{
+    margin-left: 2%;
+}
+.contact-us a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+}
+
+.copyright{
+    font-size: 10px;
+    font-weight: 600;
+    color:#000;
+    text-align: center;
+}
+
+.social-media-icons{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.social-media-icons a{
+    text-decoration: none;
 }

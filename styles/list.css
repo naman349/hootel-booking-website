@@ -3,15 +3,56 @@
     scroll-behavior: smooth;
 }
 
-.hotels img{
+.hotels-container img{
     width: 250px;
     height: 250px;
 
 }
 
+.hotel-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.hotel-description a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* .Content{
+    display: block;
+} */
+
+
+.hotels-container{
+
+    display: block;
+}
+
 .hotel-description{
     background-color:rgb(132,136,139);
-    margin: 2%;
+    margin: 2% 4%;
     width: 40%;
     height: auto;
+}
+
+.Content .views ul{
+    list-style: none;
+    text-align: center;
+    margin:0 auto;
+}
+.Content .views ul li {
+    display: inline-block;
+    padding: 20px;
+}
+.Content .views ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+
+.map{
+    display: none;
 }
