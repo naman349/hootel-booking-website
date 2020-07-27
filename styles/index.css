@@ -39,8 +39,8 @@
 }
 
 .city-images img{
-    width: 150;
-    height: 150;
+    width: 150px;
+    height: 150px;
 }
 .city-images a{text-decoration: none;}
 .images{
@@ -54,7 +54,7 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 3px;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2; 
     border-radius: 25%;
@@ -70,8 +70,10 @@
     transform: translate(-50%,-50%);
     text-align: center;
     z-index: 3;
+    margin-top: 1em;
     color: #f1f1f1;
     display: none;
+    
 }
 
 .images:hover .overlay{
