@@ -3,17 +3,33 @@
     scroll-behavior: smooth;
 }
 
-.hotels-container img{
-    width: 250px;
-    height: 250px;
-
+.Content{
+    padding-bottom: 5%;
 }
 
 .hotel-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+
     
+}
+
+.hotel-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-box2{
+    padding: 1% 3%;
+}
+
+.hotel-description{
+    background-color:rgb(132,136,139);
+    margin: 2% 4%;
+    width: 40%;
+    height: 200px;
 }
 
 .hotel-description a{
@@ -21,36 +37,38 @@
     color: #000;
 }
 
-/* .Content{
-    display: block;
-} */
-
-
-.hotels-container{
-
-    display: block;
+.hotels-container img{
+    width: 250px;
+    height: 200px;
 }
 
-.hotel-description{
-    background-color:rgb(132,136,139);
-    margin: 2% 4%;
-    width: 40%;
-    height: auto;
+.Content .views{
+    padding: 15px 0;
 }
 
 .Content .views ul{
     list-style: none;
     text-align: center;
     margin:0 auto;
+    padding: 0;
 }
+
 .Content .views ul li {
-    display: inline-block;
-    padding: 20px;
+    display: inline;
+    /* padding: 0px 20px; */
 }
+
+
+
 .Content .views ul li a{
     text-decoration: none;
     color:#000;
     font-weight: bold;
+}
+
+.Content .views ul li:first-child a{
+    margin-left: -30px;
+    padding-right: 35px;
 }
 
 .map{
