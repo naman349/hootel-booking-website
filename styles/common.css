@@ -10,6 +10,9 @@ body, .Main{
     overflow-x: hidden;
 }
 
+.checked {
+    color: orange;
+  }
 
 
 header,footer{
@@ -109,5 +112,20 @@ footer a img{
     font-weight: 600;
     color:#000;
     text-align: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    form .row{
+        flex-wrap: nowrap;
+    }
+    
+    .contactus-modal .col-sm-2 {
+        max-width: 15.666667%;
+    }
+    .contactus-modal .col-sm-6{
+        width: 80%;
+    } 
+
 }
 
