@@ -7,6 +7,7 @@ body, .Main{
     font-family: 'Ubuntu', sans-serif;
     color:#000;
     position: sticky;
+    overflow-x: hidden;
 }
 
 
@@ -33,7 +34,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
 }
 
 header img{
@@ -54,11 +55,14 @@ header .login{
 }
 
 
-
+.line-height-1{
+    line-height: 1;
+}
 
 
 .Content{
     padding-top: 60px;
+    min-height: 100vh;
 }
 
 /* Footer styling*/
